@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "APaGIw5ZYMqXpY4AB2ehTBFnZHVTAeZPmoB3TaLr6/c5f2P9Wv9GBkWYTZ0dIbn1+WglsDr4mYMW+SvCNlJGBQ==",
+  "success": true,
+  "projectFilePath": "/home/awais/repos/gameStore/gameStore/gameStore.csproj",
+  "expectedPackageFiles": [
+    "/home/awais/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/awais/.nuget/packages/minimalapis.extensions/0.11.0/minimalapis.extensions.0.11.0.nupkg.sha512",
+    "/home/awais/.nuget/packages/minivalidation/0.8.0/minivalidation.0.8.0.nupkg.sha512"
+  ],
+  "logs": []
+}
