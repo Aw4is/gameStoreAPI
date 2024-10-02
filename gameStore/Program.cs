@@ -4,9 +4,22 @@
 
 //Can add more configurations using this builder object
 using System.Net;
+using gameStore.Data;
 using gameStore.Dtos;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+
+//--connect to SQL lite
+var connectionString = "Data Source=GameStore.db"; //Defines physical path to database file - not ideal but its sqlite
+//This actually registers the service - Uses dependency injection
+//Entity Framework will:
+    //read connection string - create instance of gamestore context
+    //Passes  DBcontext options which contain all data within the database
+    //It will then connect to the database
+    //Maps the entities to table
+builder.Services.AddSqlite<GameStoreContext>(connectionString); //specify name of context then pass connection string
 
 
 //Builds instance of web server
